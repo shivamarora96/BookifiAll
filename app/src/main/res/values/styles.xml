@@ -8,4 +8,30 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <style name="openOrangeApp" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/darkOrange</item>
+        <item name="colorPrimaryDark">@color/heavierDarkOrange</item>
+        <item name="colorAccent">@color/heavierheavierDarkOrange</item>
+
+    </style>
+
+    <style name="openOrangeApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="openOrangeApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <!--
+
+
+    <color name="darkOrange">#FFFFB300</color>
+    <color name="heavierDarkOrange">#f09d0e</color>
+    <color name="heavierheavierDarkOrange">#ff6a00</color>
+
+
+
+    -->
+
+
 </resources>

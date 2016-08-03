@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BookifyAll.iml" filepath="$PROJECT_DIR$/BookifyAll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BookifiAll.iml" filepath="$PROJECT_DIR$/BookifiAll.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="5dp"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_margin="7dp"
+        >
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+                android:layout_weight="3"
+            android:orientation="horizontal"
+
+              >
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/recyclerview_item_ImageView"
+                        android:layout_weight="1"
+                        />
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1.7"
+                        >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:id="@+id/recyclerview_item_BookTitle"
+                        android:layout_gravity="center"
+                        android:gravity="center_horizontal"
+                        android:text="BOok TItle"
+                        android:textStyle="bold"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.7"
+                        android:id="@+id/recyclerview_item_BookDescription"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="BOok TItle"
+
+                        />
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:id="@+id/recyclerview_item_BookRating"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal" />
+
+
+
+
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
